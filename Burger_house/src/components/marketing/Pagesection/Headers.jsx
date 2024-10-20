@@ -4,7 +4,7 @@ import Button from "./elements/Button";
 
 function Header() {
   return (
-    <div className="flex items-center justify-around py-10">
+    <div className="relative z-10 flex items-center justify-around py-10">
       <div className="w-full">
         <img src={Logo} alt="Burger House App" className="w-64" />
       </div>

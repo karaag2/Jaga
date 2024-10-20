@@ -4,6 +4,10 @@
 
 body {
   font-family: "Roboto";
+  @apply text-secondary;
+}
+p {
+  @apply mb-4;
 }
 .animate {
   transition: all 0.2s ease-in;
@@ -12,4 +16,8 @@ body {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.shadowTitlesecondary {
+  text-shadow: 3px 3px #fee7ba;
 }
