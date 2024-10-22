@@ -17,7 +17,7 @@ function Products() {
         as lettuce, tomato, onion, cheese, pickles, and condiments like ketchup,
         mustard, and mayonnaise.
       </p>
-      <div className="grid grid-cols-3  gap-x-1 mt-10 mb-20 h-72">
+      <div className="grid grid-cols-3  gap-x-1 mt-10 mb-20 ">
         <Burgers img={Image1}></Burgers>
         <Burgers img={Image2}></Burgers>
         <Burgers img={Image3}></Burgers>
