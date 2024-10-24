@@ -1,7 +1,19 @@
+import HeroTop from "../components/marketing/Pagesection/HeroTop.jsx";
+import LastProducts from "../components/marketing/Pagesection/lastproducts.jsx";
+import Foot from "../components/marketing/Pagesection/Foot.jsx";
+import Product from "../components/marketing/Pagesection/Product.jsx";
+import Event from "../components/marketing/Pagesection/Event.jsx";
+import Formulaire from "../components/marketing/Pagesection/Formulaire.jsx";
+
 function HomePage() {
   return (
     <>
-      <h1>Hello world mine name is dr cat</h1>
+      <HeroTop />
+      <LastProducts />
+      <Product></Product>
+      <Event></Event>
+      <Formulaire></Formulaire>
+      <Foot></Foot>
     </>
   );
 }

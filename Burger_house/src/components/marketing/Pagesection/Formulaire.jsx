@@ -1,17 +1,24 @@
 import Container from "./elements/container";
 import Headings from "./elements/DisplayTitles/Headings";
-import Button from "./elements/Button";
+// import Button from "./elements/Button";
 import Assiete from "../../../Burger-House-By-Remote-Monkey-ressources/Background/Assiette-burger-frites.png";
 import Burger from "../../../Burger-House-By-Remote-Monkey-ressources/Background/Burger.png";
 import ketchup from "../../../Burger-House-By-Remote-Monkey-ressources/Background/sauce-pimente.png";
 
 function Champ(props) {
   return (
-    <input
-      type={props.type}
-      className="p-4 leading-tight focus:outline-none border border-secondary rounded-md text-lg "
-      placeholder={props.holder}
-    />
+    <div>
+      <label htmlFor="{props.holder}" className="font-secondary">
+        {props.holder}
+      </label>
+      <input
+        name={props.holder}
+        type={props.type}
+        id={props.holder}
+        className="p-5 leading-tight block w-full focus:border-primary focus:ring-primary focus:outline-none border-2 border-secondary rounded-md text-lg "
+        placeholder={props.holder}
+      />
+    </div>
   );
 }
 function Formulaire() {
@@ -41,22 +48,24 @@ function Formulaire() {
           <Headings theme="secondary" ui="mb-12">
             Reservez votre table
           </Headings>
-          <div>
-            <form action="" className="grid grid-rows-2 grid-cols-2 gap-6">
-              <Champ holder="Nom" type="text" />
-              <Champ holder="Email" type="email" />
-              <Champ holder="Date" type="date" />
-              <Champ holder="Heure" />
-              <Champ holder="Nombre de Personnes" type="number" />
 
-              <Button
-                color="danger"
-                className="rounded-md tex font-secondary text-xl"
-              >
-                Trouvez une table
-              </Button>
-            </form>
-          </div>
+          <form action="" className="grid grid-rows-2 grid-cols-2 gap-6">
+            <Champ holder="Nom" type="text" />
+            <Champ holder="Email" type="email" />
+            <Champ holder="Date" type="date" />
+            <Champ holder="Heure" type="time" />
+            <Champ holder="Nombre de Personnes" type="number" />
+            <div>
+              <label htmlFor="" className="invisible">
+                Trouvez votre table
+              </label>
+              <input
+                type="button"
+                value={"Trouvez votre table"}
+                className="bg-red_primary hover:bg_red-primary-hover w-full text-white font-secondary tracking-widest uppercase py-5 rounded-md animate cursor-pointer"
+              />
+            </div>
+          </form>
         </div>
       </div>
     </Container>

@@ -40,7 +40,7 @@ export default function Headings(props) {
     case "h2":
       return (
         <div className="flex items-center justify-center">
-          <h3 className={`${classDefault2} ${ui} ${font} ${color} text-lg`}>
+          <h3 className={`${classDefault2} ${ui} ${font} ${color} text-l`}>
             {children}
           </h3>
         </div>
