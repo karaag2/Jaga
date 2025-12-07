@@ -14,11 +14,19 @@ function Header() {
           <span>Commandez votre repas en ligne</span>
         </div>
         <div className="flex justify-end my-4">
-          <Button className={"bg-primary hover:bg-secondary mr-4"}>
+          <Button
+            className={"bg-primary hover:bg-secondary mr-4"}
+            handleClick={() => alert("Votre inscription est un succès")}
+          >
             Inscription
           </Button>
 
-          <Button className={"bg-secondary hover:bg-primary"}>connexion</Button>
+          <Button
+            className={"bg-secondary hover:bg-primary"}
+            handleClick={() => alert("Votre connexion est un succès")}
+          >
+            connexion
+          </Button>
         </div>
       </div>
     </div>

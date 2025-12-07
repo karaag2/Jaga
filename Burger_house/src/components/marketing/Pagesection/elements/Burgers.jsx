@@ -2,6 +2,9 @@ import Button from "./Button.jsx";
 import Headings from "./DisplayTitles/Headings";
 
 function Burgers(props) {
+  const handleClick = ()=>{
+    alert('Votre commande est un succès')
+  }
   return (
     <div className="bg-primry">
       <img
@@ -16,7 +19,7 @@ function Burgers(props) {
         <p className="text-center">
           Lorem ipesum dolor si amet,consectetur, adipiscing elit,sed do
         </p>
-        <Button className="font-secondary" theme="big" color="danger">
+        <Button className="font-secondary" theme="big" color="danger" handleClick={handleClick}>
           Commandez
         </Button>
       </div>

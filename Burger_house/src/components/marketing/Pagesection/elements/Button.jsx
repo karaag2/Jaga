@@ -1,4 +1,4 @@
-function Button({ children, className, theme, color }) {
+function Button({ children, className, theme, color, handleClick }) {
   let background = "";
   switch (color) {
     case "secondary":
@@ -15,6 +15,7 @@ function Button({ children, className, theme, color }) {
     <>
       {theme && theme == "small" && (
         <button
+          onClick={handleClick}
           className={`${background} ${className} px-4 py-2 uppercase shadow-xl text-white text-xs font-medium animate`}
         >
           {children}
@@ -22,6 +23,7 @@ function Button({ children, className, theme, color }) {
       )}
       {(!theme || theme == "medium") && (
         <button
+          onClick={handleClick}
           className={`${background} ${className} px-4 py-3 uppercase shadow-xl text-white text-sm font-medium animate`}
         >
           {children}
@@ -29,6 +31,7 @@ function Button({ children, className, theme, color }) {
       )}
       {theme && theme == "big" && (
         <button
+          onClick={handleClick}
           className={`${background} ${className} px-8 py-4 uppercase shadow-xl text-white text-base font-medium animate`}
         >
           {children}

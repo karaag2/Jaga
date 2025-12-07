@@ -12,7 +12,7 @@ function Champ(props) {
         {props.holder}
       </label>
       <input
-        name={props.holder}
+        name={props.holder ==="Nombre de Personnes" ? "personnes" : props.holder}
         type={props.type}
         id={props.holder}
         className="p-5 leading-tight block w-full focus:border-primary focus:ring-primary focus:outline-none border-2 border-secondary rounded-md text-lg "
@@ -22,6 +22,19 @@ function Champ(props) {
   );
 }
 function Formulaire() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('====================================');
+    console.log(e.target.elements[0].value);
+    console.log('====================================');
+    const name = e.target.elements[0].value;
+    const email = e.target.elements[1].value;
+    const personnes = e.target.elements[4].value;
+    const date = e.target.elements[2].value;
+    const heure = e.target.elements[3].value;
+
+    alert( `Table au nom de ${name.toUpperCase()} pour ${personnes} personnes \nPour le ${date} a ${heure}\n${email}` );
+  };
   return (
     <Container>
       <div className="relative mb-20 py-6  bg-prmary">
@@ -49,7 +62,11 @@ function Formulaire() {
             Reservez votre table
           </Headings>
 
-          <form action="" className="grid grid-rows-2 grid-cols-2 gap-6">
+          <form
+            action=""
+            className="grid grid-rows-2 grid-cols-2 gap-6"
+            onSubmit={handleSubmit}
+          >
             <Champ holder="Nom" type="text" />
             <Champ holder="Email" type="email" />
             <Champ holder="Date" type="date" />
@@ -60,7 +77,7 @@ function Formulaire() {
                 Trouvez votre table
               </label>
               <input
-                type="button"
+                type="submit"
                 value={"Trouvez votre table"}
                 className="bg-red_primary hover:bg_red-primary-hover w-full text-white font-secondary tracking-widest uppercase py-5 rounded-md animate cursor-pointer"
               />

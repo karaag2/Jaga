@@ -5,6 +5,10 @@ import Product from "./../../../Burger-House-By-Remote-Monkey-ressources/HeroTop
 import Button from "./elements/Button";
 
 function HeroTop() {
+  const handleClick = ()=>{
+    alert("Compte crée")
+
+  }
   return (
     <div className="bg-primary  h-screen w-full  ">
       <div
@@ -43,7 +47,8 @@ function HeroTop() {
               </h2>
             </div>
           </div>
-          <Button className={"mt-5"} theme={"big"} color={"secondary"}>
+          <Button className={"mt-5"} theme={"big"} color={"secondary"}handleClick={handleClick}
+            >
             Cree mon compte
           </Button>
         </Container>
