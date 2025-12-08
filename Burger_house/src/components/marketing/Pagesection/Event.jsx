@@ -3,9 +3,9 @@ import Headings from "./elements/DisplayTitles/Headings";
 // import HeadingTitles from "./elements/DisplayTitles/headingtitles";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import thEvents from "../../../Burger-House-By-Remote-Monkey-ressources/Events/dorian-hurst-d-igN2ptyC8-unsplash.jpg";
-import Image1 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/Product-1.jpg";
-import Image2 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/Product-2.jpg";
+import thEvents from "/Burger-House-By-Remote-Monkey-ressources/Events/dorian-hurst-d-igN2ptyC8-unsplash.jpg";
+import Image1 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/Product-1.jpg";
+import Image2 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/Product-2.jpg";
 
 import "../../../css/carousel.css";
 

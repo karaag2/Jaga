@@ -1,7 +1,7 @@
-import Illustration from "../../../Burger-House-By-Remote-Monkey-ressources/Background/bg-food.jpg";
+import Illustration from "/Burger-House-By-Remote-Monkey-ressources/Background/bg-food.jpg";
 import Container from "./elements/container";
 import Header from "./Headers";
-import Product from "./../../../Burger-House-By-Remote-Monkey-ressources/HeroTop/burger-hero-top.png";
+import Product from "/Burger-House-By-Remote-Monkey-ressources/HeroTop/burger-hero-top.png";
 import Button from "./elements/Button";
 
 function HeroTop() {

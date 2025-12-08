@@ -1,11 +1,11 @@
 import Container from "./elements/container";
-import facebook from "../../../Burger-House-By-Remote-Monkey-ressources/Icones/facebook-f-brands.svg";
+import facebook from "/Burger-House-By-Remote-Monkey-ressources/Icones/facebook-f-brands.svg";
 import Headings from "./elements/DisplayTitles/Headings";
-import twitter from "../../../Burger-House-By-Remote-Monkey-ressources/Icones/twitter-brands.svg";
-import whatssap from "../../../Burger-House-By-Remote-Monkey-ressources/Icones/facebook.png";
-import Back from "../../../Burger-House-By-Remote-Monkey-ressources/Background/bg-footer.jpg";
-import instagram from "../../../Burger-House-By-Remote-Monkey-ressources/Icones/instagram (2).png";
-import Burger from "../../../Burger-House-By-Remote-Monkey-ressources/Logo/picto-burger-house copy.svg";
+import twitter from "/Burger-House-By-Remote-Monkey-ressources/Icones/twitter-brands.svg";
+import whatssap from "/Burger-House-By-Remote-Monkey-ressources/Icones/facebook.png";
+import Back from "/Burger-House-By-Remote-Monkey-ressources/Background/bg-footer.jpg";
+import instagram from "/Burger-House-By-Remote-Monkey-ressources/Icones/instagram (2).png";
+import Burger from "/Burger-House-By-Remote-Monkey-ressources/Logo/picto-burger-house copy.svg";
 
 function Foot() {
   return (

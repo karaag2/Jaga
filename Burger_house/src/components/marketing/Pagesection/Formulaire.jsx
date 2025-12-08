@@ -1,9 +1,9 @@
 import Container from "./elements/container";
 import Headings from "./elements/DisplayTitles/Headings";
 // import Button from "./elements/Button";
-import Assiete from "../../../Burger-House-By-Remote-Monkey-ressources/Background/Assiette-burger-frites.png";
-import Burger from "../../../Burger-House-By-Remote-Monkey-ressources/Background/Burger.png";
-import ketchup from "../../../Burger-House-By-Remote-Monkey-ressources/Background/sauce-pimente.png";
+import Assiete from "/Burger-House-By-Remote-Monkey-ressources/Background/Assiette-burger-frites.png";
+import Burger from "/Burger-House-By-Remote-Monkey-ressources/Background/Burger.png";
+import ketchup from "/Burger-House-By-Remote-Monkey-ressources/Background/sauce-pimente.png";
 
 function Champ(props) {
   return (

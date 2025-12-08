@@ -1,9 +1,9 @@
 import HeadingTitles from "./elements/DisplayTitles/headingtitles";
 import Headings from "./elements/DisplayTitles/Headings";
 import Container from "./elements/container";
-import Image1 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/Product-1.jpg";
-import Image2 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/Product-2.jpg";
-import Image3 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/Product-3.jpg";
+import Image1 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/Product-1.jpg";
+import Image2 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/Product-2.jpg";
+import Image3 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/Product-3.jpg";
 import Burgers from "./elements/Burgers";
 function Products() {
   return (

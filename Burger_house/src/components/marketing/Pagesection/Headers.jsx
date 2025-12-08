@@ -1,5 +1,5 @@
-import Logo from "../../../Burger-House-By-Remote-Monkey-ressources/Logo/Logo-burger-house.svg";
-import Ico from "../../../Burger-House-By-Remote-Monkey-ressources/Icones/ico-bag-clickAndCollect.svg";
+import Logo from "/Burger-House-By-Remote-Monkey-ressources/Logo/Logo-burger-house.svg";
+import Ico from "/Burger-House-By-Remote-Monkey-ressources/Icones/ico-bag-clickAndCollect.svg";
 import Button from "./elements/Button";
 
 function Header() {
