@@ -1,7 +1,7 @@
 import Container from "./elements/container";
-import LastProduct1 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/lastproducts-1.jpg";
-import LastProduct2 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/lastproducts-2.jpg";
-import LastProduct3 from "/Burger-House-By-Remote-Monkey-ressources/Burgers/lastproducts-3.jpg";
+import LastProduct1 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/lastproducts-1.jpg";
+import LastProduct2 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/lastproducts-2.jpg";
+import LastProduct3 from "../../../Burger-House-By-Remote-Monkey-ressources/Burgers/lastproducts-3.jpg";
 
 function LastProducts() {
   return (
