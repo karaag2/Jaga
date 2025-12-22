@@ -18,7 +18,7 @@ function HeroTop() {
         <Container>
           <Header />
           <div className=" w-full relative mt-28">
-            <img
+             <img
               src={Product}
               className="absolute -top-64 right-0 w-6/12 z-0"
               alt="Un menu hamburgr avec coca-cola"

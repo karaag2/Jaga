@@ -1,9 +1,9 @@
 import Container from "./elements/container";
 import Headings from "./elements/DisplayTitles/Headings";
 // import Button from "./elements/Button";
-import Assiete from "/Burger-House-By-Remote-Monkey-ressources/Background/Assiette-burger-frites.png";
 import Burger from "/Burger-House-By-Remote-Monkey-ressources/Background/Burger.png";
-import ketchup from "/Burger-House-By-Remote-Monkey-ressources/Background/sauce-pimente.png";
+import Ketchup from "/Burger-House-By-Remote-Monkey-ressources/Background/Sauce-pimente.png";
+import Assiete from "/Burger-House-By-Remote-Monkey-ressources/Background/Assiette-burger-frites.png";
 
 function Champ(props) {
   return (
@@ -21,7 +21,7 @@ function Champ(props) {
     </div>
   );
 }
-function Formulaire() {
+function Formular() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('====================================');
@@ -44,7 +44,7 @@ function Formulaire() {
           className="absolute -left-36 -top-20 z-10"
         />
         <img
-          src={ketchup}
+          src={Ketchup}
           alt="une sauce Delicieuse"
           className="absolute -bottom-12 left-12"
         />
@@ -89,4 +89,4 @@ function Formulaire() {
   );
 }
 
-export default Formulaire;
+export default Formular;

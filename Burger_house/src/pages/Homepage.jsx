@@ -3,16 +3,15 @@ import LastProducts from "../components/marketing/Pagesection/lastproducts.jsx";
 import Foot from "../components/marketing/Pagesection/Foot.jsx";
 import Product from "../components/marketing/Pagesection/Product.jsx";
 import Event from "../components/marketing/Pagesection/Event.jsx";
-import Formulaire from "../components/marketing/Pagesection/Formulaire.jsx";
-
+import Formular from "../components/marketing/Pagesection/Formulaire.jsx"
 function HomePage() {
   return (
     <>
       <HeroTop />
       <LastProducts />
-      <Product></Product>
+        <Product></Product>
       <Event></Event>
-      <Formulaire></Formulaire>
+      <Formular></Formular>
       <Foot></Foot>
     </>
   );
